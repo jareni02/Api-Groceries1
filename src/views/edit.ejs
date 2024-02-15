@@ -6,21 +6,21 @@
     <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-    <title>Tienda de abarrotes</title>
+    <title>holas</title>
 
 </head>
 <body>
-    <center><h1 style="color: rgb(30, 189, 210);">Tienda de Orlando</h1></center>
+    <center><h1 style="color: rgb(204, 221, 176);">postres</h1></center>
     <div style="background-color: red;" data-role="header">
             <div data-role="navbar">
             <ul>
-                <li><a href="#" class="ui-btn-active">One</a></li>
-                <li><a href="#">Two</a></li>
-                <li><a href="#">Three</a></li>
+                <li><a href="#" class="ui-btn-active">home</a></li>
+                <li><a href="#">products</a></li>
+                <li><a href="#">employes</a></li>
             </ul>
                 </div>
         </div>
-        <div data-role="content" style="background-color: rgb(245, 239, 160);">
+        <div data-role="content" style="background-color: rgb(172, 162, 166);">
             <form  action="/api/products/" method="POST">
                 
                 <label for="txt_codigo_barras" style="color: rgb(0, 0, 0)">Codigo de barras:</label>
@@ -61,12 +61,12 @@
 
                 <label for="submit-6" style="color: rgb(0, 0, 0)">Enviar</label>
                     <button type="submit" id="submit-6" class="ui-shadow ui-btn ui-corner-all 
-                    ui-mini" style="color: chocolate;">Guardar</button>
+                    ui-mini" style="color: rgb(43, 31, 97);">Guardar</button>
                     <a href="/api/products/delete/<%= product.barcode %>" class="ui-btn">Eliminar</a>
             </form>
     </div>
         <div data-role="footer " >
-            <center><h5 style="color: chocolate;">Desarrollado por Orlando</h5></center>
+            <center><h5 style="color: rgb(30, 48, 210);"></h5></center>
 
         </div>
 </body>
